@@ -1,0 +1,41 @@
+site_name: MkDocsマニュアル
+site_description: MkDocsの説明
+site_author: '@skohara'
+copyright: copyright 2020 Dicre ltd.
+
+theme:
+  name: material
+  language: 'ja'
+  icon:
+    logo: material/book-open
+  features:
+    - navigation.expand
+  #  - tabs 
+  palette:
+    primary: green
+  custom_dir: 'custom_dir'
+
+nav:
+    - 導入:
+      - インストール: intro.md
+    - 設定:
+      - 設定: option.md
+      - カスタマイズ: cust.md
+    - 書き方:
+      - マークダウン: cont.md
+      - スタイル: css.md
+      
+#extra_css:
+#    - css/custom.css
+
+markdown_extensions:
+    - admonition
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/skohara
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dicre
+    - icon: fontawesome/brands/github
+      link: https://github.com/dicreltd
