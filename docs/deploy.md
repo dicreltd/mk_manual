@@ -49,3 +49,7 @@ siteフォルダはアップロードしないので以下を作成
 - Getting startedで「１ Your site is deployed」が終わるとアクセス可能
 - 独自ドメイン設定する場合には 2 Set up custom domainをクリック（後で設定も可能）
 
+## 更新
+
+GitHubにプッシュすると、自動的にNetlifyで公開される。
+
