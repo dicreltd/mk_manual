@@ -4,13 +4,10 @@ pipenvで仮想環境を作る場合。
 
 ## インストール
 
-    pipenv shell
-    
-    # 基本のmkdcosなら
-    pipenv install mkdocs
+    pip install mkdocs
     
     # マテリアル対応mkdcosなら
-    pipenv install mkdocs-material
+    pip install mkdocs-material
     
     # プロジェクト作成
     mkdocs new プロジェクト名
@@ -23,3 +20,4 @@ pipenvで仮想環境を作る場合。
 ## 試したいとき（ローカルサーバ）
     mkdocs serve
 
+ブラウザでhttp://127.0.0.1:8000 にアクセス
