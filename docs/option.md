@@ -47,10 +47,7 @@ patteのprimaryで基本色を指定。
 	site_name: サイト名
 	site_url: サイトURL
 	site_description: サイト説明（meta description）
-	site_author: tyoshahyou'@keitarou'（フッタに表示）
+	site_author: skohara'@dicre.com'（フッタに表示）
 	site_favicon: favicon.ico
-	repo_url: リポジトリURL
-	repo_name: リポジトリ名
 	copyright: 著作権表示（フッタに表示）
 	google_analytics: GOOGLEアナリティクス
-	dev_addr: '127.0.0.1:8000'
