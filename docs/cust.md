@@ -15,11 +15,11 @@ main.html でJinja2の表記を行う。base.htmlを継承し、ブロックに�
 	{% extends "base.html" %}
 
 	{% block htmltitle %}
-	  <title>Lorem ipsum dolor sit amet</title>
+	  <title>マイタイトル</title>
 	{% endblock %}
 
 ## 元ソースを使ったカスタマイズ
 
-元のhtmlは [Github内](https://github.com/squidfunk/mkdocs-material/tree/master/material/partials) にある。
+元のhtmlは [Github内](https://github.com/squidfunk/mkdocs-material/tree/master/material/) にある。
 このページから必要なブロックのソースをコピーしカスタマイズすると良い。
 

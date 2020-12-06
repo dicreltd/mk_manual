@@ -1,7 +1,5 @@
 # MkDocsインストール
 
-pipenvで仮想環境を作る場合。
-
 ## インストール
 
     pip install mkdocs
@@ -14,10 +12,16 @@ pipenvで仮想環境を作る場合。
     
     cd プロジェクト名
 
-## HTML生成（公開前など）
-    mkdocs build
+## 表示してみたいとき（ローカルサーバ）
 
-## 試したいとき（ローカルサーバ）
     mkdocs serve
 
 ブラウザでhttp://127.0.0.1:8000 にアクセス
+
+## HTML生成
+
+本番時のHTML生成。
+
+    mkdocs build
+
+siteに生成される。
